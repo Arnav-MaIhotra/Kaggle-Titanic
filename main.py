@@ -33,4 +33,4 @@ pred = model.predict(df)
 
 df = pd.DataFrame({"PassengerId":list(df['PassengerId']), "Survived":list(pred)})
 
-df.to_csv("submission.csv", index=False)
+df.to_csv("submission.csv", index=False) #testing pull requests
